@@ -36,7 +36,7 @@ def generate(data):
     # Put the sum into data['correct_answers']
     data['correct_answers']['c'] = c
 
-
+#This is solely for demo purposes. 
 check = Helper([(5,10), (7,11), (1,4)])
 for i in range(60):
     print(i, check.generate_values(i))
